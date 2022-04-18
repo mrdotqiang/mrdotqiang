@@ -1,5 +1,5 @@
 - 👋 Hi, I’m peter
-- 👀 I’m interested in boys 
+- 👀 I’m interested in you 
 - 🌱 I’m currently learning python ...
 - 💞️ I’m looking to collaborate on nothing
 - 📫 How to reach me impossible
