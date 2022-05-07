@@ -1,0 +1,80 @@
+ 函数相关#############################################
+ 
+ 可变类型    list dic 
+ 不可变类型  int(all basic data type) tuple str 
+ 函数传参就是对象的引用  
+ 
+ 匿名函数 只能是单个表达式，不是一个代码块
+ test=lambda x,y:x+y
+ test(3,4)
+ if a:
+    b
+ else:
+    c
+ b if a else c
+ test=lambda x,y:x if x>y else y
+ test=lambda x,y:x if x>y else y(12,5)
+ print(test) 12
+ 
+ #递归案例模拟实现树形结构的遍历
+import os
+def findFile(file Path):
+  listRs=os.listdir(file_Path)#得到该路径下所有文件夹
+  for fileItem in listRs:
+    full_path=os.path.join(file_Path,fileItem)#get the full path
+    if os.path.isdir(full_path):
+      findFile(full_path)
+    else:
+      print(fileItem)
+      pass
+    pass
+   else:
+     return
+  pass
+  
+  
+关键字可变参数**   可变参数*
+def func(**kwrgs):
+  print(kwargs)
+k={"name":"peter","age":28} func(**k)
+func(name='peter',age=28)
+
+ 
+函数相关#############################################
+  
+数据结构相关#############################################
+
+set 不支持切片和索引、去重和无序 s
+difference() or -   差集 
+intersection() or & 交集
+union() or |        并集  update()
+
+
+数据结构相关#############################################
+ 
+设计模式#############################################
+
+单例：
+
+
+
+设计模式#############################################
+
+异常处理#############################################
+
+try:
+except:
+else:
+finally:
+
+异常处理#############################################
+
+模块说明#############################################
+import 
+首先在当前目录查找有没有
+如果没有就到环境变量中搜索 import sys sys.path
+
+
+模块说明#############################################
+
+
